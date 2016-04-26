@@ -2,7 +2,7 @@
     "targets": [
         {
             "target_name": "rijndael",
-            "sources": ["src/rijndael.cc", "src/rijndael.cc"],
+            "sources": ["src/rijndael_init.cc", "src/rijndael.cc"],
             "link_settings": {
                 "libraries": ["-lmcrypt"]
             },
